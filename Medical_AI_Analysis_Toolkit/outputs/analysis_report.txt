@@ -1,0 +1,19 @@
+MEDICAL AI ANALYSIS TOOLKIT
+===========================
+
+PATIENT DATA ANALYSIS
+---------------------
+Number of Patients: 10
+Average Age: 42.10
+Average Heart Rate: 79.50 BPM
+Maximum Heart Rate: 92 BPM
+Minimum Heart Rate: 69 BPM
+Average Temperature: 36.98 °C
+
+IMAGE PROCESSING
+----------------
+Input Image: sample.png
+Resize: 224 x 224
+Grayscale Conversion: Applied
+Gaussian Blur: Applied
+Canny Edge Detection: Applied
