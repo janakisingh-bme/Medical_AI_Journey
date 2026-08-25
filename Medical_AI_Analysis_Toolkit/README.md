@@ -92,8 +92,8 @@ It also helped me understand how data analysis and image preprocessing can be us
 
 Note: This is an educational project using synthetic patient data. It is not a medical diagnostic system.
 
-👩‍💻 Medical AI Journey
+## 🩻 X-Ray Processing Result
 
-Combined Mini Project
+The project also generates a combined visualization showing the different stages of X-ray preprocessing:
 
-Learning by building, one step at a time.
+![X-Ray Processing Pipeline](outputs/xray_processing_pipeline.png)

@@ -128,3 +128,44 @@ with open(report_path, "w") as report:
     report.write("Canny Edge Detection: Applied\n")
 
 print("\nAnalysis report saved successfully.")
+
+# -----------------------------
+# Combined X-Ray Visualization
+# -----------------------------
+
+plt.figure(figsize=(12, 8))
+
+# Original image
+plt.subplot(2, 2, 1)
+plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
+plt.title("Original X-Ray")
+plt.axis("off")
+
+# Grayscale image
+plt.subplot(2, 2, 2)
+plt.imshow(gray, cmap="gray")
+plt.title("Grayscale")
+plt.axis("off")
+
+# Blurred image
+plt.subplot(2, 2, 3)
+plt.imshow(blurred, cmap="gray")
+plt.title("Gaussian Blur")
+plt.axis("off")
+
+# Edge image
+plt.subplot(2, 2, 4)
+plt.imshow(edges, cmap="gray")
+plt.title("Canny Edges")
+plt.axis("off")
+
+plt.tight_layout()
+
+# Save combined visualization
+plt.savefig(
+    "Medical_AI_Analysis_Toolkit/outputs/xray_processing_pipeline.png"
+)
+
+plt.show()
+
+print("Combined X-ray visualization saved successfully.")
