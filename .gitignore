@@ -1,3 +1,8 @@
 venv/
 __pycache__/
 .vscode/
+*.nii
+*.nii.gz
+__pycache__/
+*.pyc
+venv/
