@@ -6,3 +6,12 @@ __pycache__/
 __pycache__/
 *.pyc
 venv/
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Generated Medical AI outputs
+Day_8_3D_Slice_Visualization/outputs/*.html
