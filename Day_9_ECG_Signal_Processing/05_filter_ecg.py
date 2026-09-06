@@ -41,4 +41,5 @@ plt.ylabel("Amplitude (mV)")
 plt.legend()
 plt.grid()
 
+plt.savefig("outputs/ecg_filtered_comparison.png", dpi=300, bbox_inches="tight")
 plt.show()

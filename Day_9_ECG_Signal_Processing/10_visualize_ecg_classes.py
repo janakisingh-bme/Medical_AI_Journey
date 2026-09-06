@@ -70,4 +70,5 @@ plt.ylabel("Amplitude (mV)")
 plt.legend()
 plt.grid()
 
+plt.savefig("outputs/ecg_beat_classes.png", dpi=300, bbox_inches="tight")
 plt.show()

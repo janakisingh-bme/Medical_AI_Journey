@@ -23,4 +23,5 @@ plt.xlabel("Time (seconds)")
 plt.ylabel("Amplitude (mV)")
 plt.grid()
 
+plt.savefig("outputs/ecg_raw_10s.png", dpi=300, bbox_inches="tight")
 plt.show()

@@ -35,5 +35,5 @@ plt.title("Normalized ECG Signal - Record 100 (MLII)")
 plt.xlabel("Time (seconds)")
 plt.ylabel("Normalized Amplitude")
 plt.grid()
-
+plt.savefig("outputs/ecg_normalized_10s.png", dpi=300, bbox_inches="tight")
 plt.show()
